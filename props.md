@@ -4,13 +4,25 @@ Answer these on your own, then compare answers as a group
 
 1.  What are props?
 
+Properties being passed from one componenet toanother. data from the parent will not be changed by child components. Modular, independant, reusable peices. Being passed from parent to child.
+
 2.  How do you pass props from a parent to a child?
+
+set attributes within the parent, then pass down data from parent to child
 
 3.  How do you access props from a class based child component?
 
+this.props.PROPNAME 
+
 4.  How do you access props from a functional component?
 
+props.name
+
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+
+-use this.askQuestion = this.askQuestion.bind(this);
+-arrow functions
+
 
 ### Understand
 
@@ -64,3 +76,4 @@ Try these on your own, but work together if you start to get stuck.
 Discuss these questions as a group
 
 8.  In the Queue component above, why are we holding state in the Queue component instead of Mentor or Student?
+states is the parent and both functions need access to the same state info

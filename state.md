@@ -3,10 +3,13 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is state?
+Contains the objects we will be working with that can be refered to by this
 
 2.  Where do you set initial state?
+The parent class
 
 3.  What method do you use to update state?
+this.state =
 
 ### Understand
 
